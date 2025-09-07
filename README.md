@@ -1,10 +1,7 @@
 
 
----
 
-## 📄 Step 1: Create `README.md`
 
-Here’s a suggested `README.md` for your repo:
 
 ```markdown
 # Controls Labs – Lab 1
@@ -84,4 +81,4 @@ Controls-Labs/
 
 ````
 
----
+
