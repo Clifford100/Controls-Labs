@@ -48,6 +48,11 @@ Controls-Labs/
 
 ---
 
+## 📖 Viewing & Using the Notebook
+
+You can view the `MTHNYI011_EEE3094S_LAB1_REPORT.ipynb` report directly on GitHub to see all code and analysis.  
+To run or test the code with the provided data, download or clone the repository to your device and ensure you have both the notebook file and the `Data` folder.
+
 ## 🚀 How to Run
 
 1. **Clone the repository:**
