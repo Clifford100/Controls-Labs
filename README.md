@@ -1,4 +1,3 @@
-```markdown
 # Controls Labs – EEE3094S
 
 This repository contains the work for **EEE3094S Control Systems Labs**, including system identification, validation, and proportional controller design.
@@ -61,75 +60,83 @@ Controls-Labs/
 ## 🔬 Lab Overview
 
 ### Lab 1: System Identification
-- **Step Response Test:**  
+
+* **Step Response Test:**
   Experimental data collected from the suspension simulator, processed and modeled as a second-order system.
 
-- **Frequency Response Test:**  
+* **Frequency Response Test:**
   Sinusoidal steady-state responses measured over a range of frequencies; Bode plots generated and system parameters identified.
 
-- **Analysis:**  
+* **Analysis:**
   Results from both methods compared, transfer functions derived, and an averaged model proposed.
 
-- **Validation:**  
+* **Validation:**
   Models validated against experimental data using MATLAB and Python (step and frequency responses).
 
 ### Lab 2: Proportional Control - Kitticopter
-- **System Identification:**  
+
+* **System Identification:**
   Step tests performed to determine kitticopter aerodynamic parameters and develop transfer function model.
 
-- **Proportional Controller Design:**  
+* **Proportional Controller Design:**
   Designed to meet specifications: >92% tracking accuracy, <30% overshoot, and robustness to parameter variations.
 
-- **Controller Implementation:**  
+* **Controller Implementation:**
   Physical controller built on Veroboard and tested with simulated kitticopter system.
 
-- **Performance Validation:**  
+* **Performance Validation:**
   Controller tested against step inputs and evaluated against all design specifications.
 
 ---
 
 ## 🛠️ Tools Used
 
-- **Python (NumPy, SciPy, Matplotlib, Pandas):** Data processing and plotting  
-- **MATLAB/Simulink:** System modeling and controller design validation
-- **Jupyter Notebook:** Report writing and combined analysis  
-- **Overleaf:** Report writing
-- **Electronic Components:** Op-amps, resistors for physical controller implementation
+* **Python (NumPy, SciPy, Matplotlib, Pandas):** Data processing and plotting
+* **MATLAB/Simulink:** System modeling and controller design validation
+* **Jupyter Notebook:** Report writing and combined analysis
+* **Overleaf:** Report writing
+* **Electronic Components:** Op-amps, resistors for physical controller implementation
 
 ---
 
 ## 📖 Viewing & Using the Notebooks
 
-You can view the lab reports (`.ipynb` files) directly on GitHub to see all code and analysis.  
+You can view the lab reports (`.ipynb` files) directly on GitHub to see all code and analysis.
 To run or test the code with the provided data, download or clone the repository to your device and ensure you have both the notebook files and the data folders.
+
+---
 
 ## 🚀 How to Run
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/Clifford100/Controls-Labs
    ```
 
 2. **For Lab 1:**
+
    ```bash
    cd "Controls-Labs/Lab 1"
    jupyter notebook MTHNYI011_EEE3094S_LAB1_REPORT.ipynb
    ```
 
 3. **For Lab 2 - IMPORTANT:**
+
    ```bash
    cd "Controls-Labs/Lab 2/Results Session 1"
    jupyter notebook MTHNYI011_3094S_LAB2_REPORT.ipynb
    ```
+
    **Note:** The Lab 2 notebook must be run from within the `Results Session 1` folder because it directly accesses the CSV data files in that directory. A backup copy is also available in the main Lab 2 folder.
 
 4. **Run MATLAB scripts:**
-   - Lab 1: Open `MATLAB_Bode_Plot_G_F_X.m` in MATLAB
-   - Lab 2: Open any `Design*.m` files in MATLAB for controller analysis
+
+   * Lab 1: Open `MATLAB_Bode_Plot_G_F_X.m` in MATLAB
+   * Lab 2: Open any `Design*.m` files in MATLAB for controller analysis
 
 ---
 
 ## ✍️ Author
 
 **Nyiko Mathebula (MTHNYI011)** – EEE3094S Control Systems Labs
-```
